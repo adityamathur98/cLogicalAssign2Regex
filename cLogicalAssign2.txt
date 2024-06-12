@@ -1,0 +1,397 @@
+//Get User Inputs
+
+1. 67
+#include<stdio.h>
+int main(){
+    int a;
+    printf("Please Enter the Value of a: ");
+    scanf("%i",&a);
+    printf("The Entered value of a is : %d",a); //67
+    
+    return 0;
+}
+
+2. 2.35
+#include<stdio.h>
+int main(){
+    float a;
+    printf("Please Enter the Value of a: ");
+    scanf("%f",&a);
+    printf("The Entered value of a is : %f",a); //2.35
+    
+    return 0;
+}
+
+3. w
+#include<stdio.h>
+int main(){
+    char a;
+    printf("Please Enter the Value of a: ");
+    scanf("%c",&a);
+    printf("The Entered value of a is : %c",a); //w
+    
+    return 0;
+}
+
+4. 12342
+   4.56
+   f
+   -32
+   4.5
+#include<stdio.h>
+int main(){
+    int a;
+    float b;
+    char c;
+    int d;
+    float e;
+    
+    printf("Please Enter the Value of a: ");
+    scanf("%i",&a);
+    
+    printf("Please Enter the value of b: ");
+    scanf("%f",&b);
+    
+    printf("Please Enter the value of c: ");
+    scanf(" %c",&c);
+    
+    printf("Please Enter the value of d: ");
+    scanf("%i",&d);
+    
+    printf("Please Enter the value of e: ");
+    scanf("%f",&e);
+    
+    printf("The Entered value of a is : %i\n",a); //12342
+    printf("The Entered value of b is : %f\n",b); //4.56
+    printf("The Entered value of c is : %c\n",c); //f
+    printf("The Entered value of d is : %d\n",d); //-32
+    printf("The Entered value of e is : %f",e); //4.5
+    
+    return 0;
+}
+
+5. 34+78 
+#include<stdio.h>
+int main(){
+    int a;
+    printf("Please Enter the Value for a: ");
+    scanf("%i",&a);
+    
+    int b;
+    printf("Please Enter the Value for b: ");
+    scanf("%i",&b);
+    
+    int c = a + b;
+    printf("The sum of a and b is: %d",c);
+    
+    return 0;
+}
+
+6.23-6 
+#include<stdio.h>
+int main(){
+    int a;
+    printf("Please Enter the Value for a: ");
+    scanf("%i",&a);
+    
+    int b;
+    printf("Please Enter the Value for b: ");
+    scanf("%i",&b);
+    
+    int c = a - b;
+    printf("The subraction of a and b is: %d",c);
+    
+    return 0;
+}
+
+7. 45*2 
+#include<stdio.h>
+int main(){
+    int a;
+    printf("Please Enter the Value for a: ");
+    scanf("%i",&a);
+    
+    int b;
+    printf("Please Enter the Value for b: ");
+    scanf("%i",&b);
+    
+    int c = a * b;
+    printf("The Multification of a and b is: %d",c);
+    
+    return 0;
+}
+
+8. 56/2 
+#include<stdio.h>
+int main(){
+    int a;
+    printf("Please Enter the Value for a: ");
+    scanf("%i",&a);
+    
+    int b;
+    printf("Please Enter the Value for b: ");
+    scanf("%i",&b);
+    
+    int c = a / b;
+    printf("The Division of a and b is: %d",c);
+    
+    return 0;
+}
+
+9. 45+78+23+12
+#include<stdio.h>
+int main(){
+    int a;
+    int b;
+    int c;
+    int d;
+    
+    printf("Please Enter the Value for a: ");
+    scanf("%i",&a);
+    
+    printf("Please Enter the Value for b: ");
+    scanf("%i",&b);
+    
+    printf("Please Enter the Value for c: ");
+    scanf("%i",&c);
+    
+    printf("Please Enter the Value for d: ");
+    scanf("%i",&d);
+    
+    int result = a + b + c +d;
+    printf("The Addition of Number is : %d", result);
+    
+    return 0;
+}
+
+10. 56*34+12/2-13
+#include<stdio.h>
+int main(){
+    int a;
+    int b;
+    int c;
+    int d;
+    int e;
+    
+    printf("Please Enter the Value for a: ");
+    scanf("%i",&a);
+    
+    printf("Please Enter the Value for b: ");
+    scanf("%i",&b);
+    
+    printf("Please Enter the Value for c: ");
+    scanf("%i",&c);
+    
+    printf("Please Enter the Value for d: ");
+    scanf("%i",&d);
+    
+    printf("Please Enter the Value for e: ");
+    scanf("%i",&e);
+    
+    int result = a*b+c/d-e;
+    printf("The Result is : %d", result);
+    
+    return 0;
+}
+
+11. 1.2*6.7-4.5/2 
+#include<stdio.h>
+int main(){
+    float a;
+    float b;
+    float c;
+    int d;
+    
+    printf("Please Enter the Value for a: ");
+    scanf("%f",&a);
+    
+    printf("Please Enter the Value for b: ");
+    scanf("%f",&b);
+    
+    printf("Please Enter the Value for c: ");
+    scanf("%f",&c);
+    
+    printf("Please Enter the Value for d: ");
+    scanf("%i",&d);
+    
+    
+    float result = a*b-c/d;
+    printf("The Result is : %f", result); //5.79
+    
+    return 0;
+}
+
+12. 1.6*(12-2)/2+7.8-1.5 
+#include<stdio.h>
+int main(){
+    float a;
+    int b;
+    int c;
+    int d;
+    float e;
+    float f;
+    
+    printf("Please Enter the Value for a: ");
+    scanf("%f",&a);
+    
+    printf("Please Enter the Value for b: ");
+    scanf("%i",&b);
+    
+    printf("Please Enter the Value for c: ");
+    scanf("%i",&c);
+    
+    printf("Please Enter the Value for d: ");
+    scanf("%i",&d);
+    
+    printf("Please Enter the Value for e: ");
+    scanf("%f",&e);
+    
+    printf("Please Enter the Value for f: ");
+    scanf("%f",&f);
+    
+    
+    float result = a*(b-c)/d+e-f;
+    printf("The Result is : %f", result);
+    
+    return 0;
+}
+
+13. 4.5*1.2-(82/2)-5.6 +1.234
+#include<stdio.h>
+int main(){
+    float a;
+    float b;
+    int c;
+    int d;
+    float e;
+    float f;
+    
+    printf("Please Enter the Value for a: ");
+    scanf("%f",&a);
+    
+    printf("Please Enter the Value for b: ");
+    scanf("%f",&b);
+    
+    printf("Please Enter the Value for c: ");
+    scanf("%i",&c);
+    
+    printf("Please Enter the Value for d: ");
+    scanf("%i",&d);
+    
+    printf("Please Enter the Value for e: ");
+    scanf("%f",&e);
+    
+    printf("Please Enter the Value for f: ");
+    scanf("%f",&f);
+    
+    
+    float result = a*b-(c/d)-e+f;
+    printf("The Result is : %f", result);
+    
+    return 0;
+}
+
+14. 8*1+(4-2)/1+6
+#include<stdio.h>
+int main(){
+    int a;
+    int b;
+    int c;
+    int d;
+    int e;
+    
+    printf("Please Enter the Value for a: ");
+    scanf("%i",&a);
+    
+    printf("Please Enter the Value for b: ");
+    scanf("%i",&b);
+    
+    printf("Please Enter the Value for c: ");
+    scanf("%i",&c);
+    
+    printf("Please Enter the Value for d: ");
+    scanf("%i",&d);
+    
+    printf("Please Enter the Value for e: ");
+    scanf("%i",&e);
+    
+
+    int result = a*b+(c-d)/b+e;
+    printf("The Result is : %i", result);  //16
+    
+    return 0;
+}
+
+15. 3.4+1.2*(3.7-1.2)/2+6.8 
+#include<stdio.h>
+int main(){
+    float a;
+    float b;
+    float c;
+    float d;
+    int e;
+    float f;
+    
+    printf("Please Enter the Value for a: ");
+    scanf("%f",&a);
+    
+    printf("Please Enter the Value for b: ");
+    scanf("%f",&b);
+    
+    printf("Please Enter the Value for c: ");
+    scanf("%f",&c);
+    
+    printf("Please Enter the Value for d: ");
+    scanf("%f",&d);
+    
+    printf("Please Enter the Value for e: ");
+    scanf("%i",&e);
+    
+    printf("Please Enter the Value for f: ");
+    scanf("%f",&f);
+    
+
+    float result = a+b*(c-d)/e+f;
+    printf("The Result is : %f", result);   //11.700001
+    
+    return 0;
+}
+
+16. 8.9*1.67-(6.21-5.6)+7.8-34 +157
+#include<stdio.h>
+int main(){
+    float a;
+    float b;
+    float c;
+    float d;
+    float e;
+    int f;
+    int g;
+    
+    printf("Please Enter the Value for a: ");
+    scanf("%f",&a);
+    
+    printf("Please Enter the Value for b: ");
+    scanf("%f",&b);
+    
+    printf("Please Enter the Value for c: ");
+    scanf("%f",&c);
+    
+    printf("Please Enter the Value for d: ");
+    scanf("%f",&d);
+    
+    printf("Please Enter the Value for e: ");
+    scanf("%f",&e);
+    
+    printf("Please Enter the Value for f: ");
+    scanf("%i",&f);
+    
+    printf("Please Enter the Value for g: ");
+    scanf("%i",&g);
+    
+
+    float result = a*b-(c-d)+e-f+g;
+    printf("The Result is : %f", result);  //145.0529  
+    
+    return 0;
+}
